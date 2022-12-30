@@ -2,6 +2,8 @@
 
 A simple todo app.
 
+![todoer](todoer.gif)
+
 > Showcases:
 >   - graphql
 >   - react
