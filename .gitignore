@@ -1,0 +1,14 @@
+# exclude
+*
+
+# include
+!bin
+!bin/**
+!src
+!src/**
+!.babelrc
+!.eslintrc.json
+!.gitignore
+!package.json
+!package-lock.json
+!README.md

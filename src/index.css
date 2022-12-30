@@ -1,0 +1,82 @@
+/* fonts */
+
+@font-face {
+  font-family: "Ubuntu-Regular";
+  src: url("../assets/fonts/Ubuntu-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu-Bold";
+  src: url("../assets/fonts/Ubuntu-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "UbuntuMono-Regular";
+  src: url("../assets/fonts/UbuntuMono-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "UbuntuMono-Bold";
+  src: url("../assets/fonts/UbuntuMono-Bold.ttf") format("truetype");
+}
+
+/* styles */
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Ubuntu-Regular, sans-serif;
+  font-size: 12px;
+  color: rgba(0, 0, 0, .9);
+  outline: unset;
+}
+
+*:focus {
+  outline: 1px solid dimgray;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Ubuntu-Bold, sans-serif;
+  font-weight: bold;
+}
+
+label, legend, button {
+  font-family: UbuntuMono-Regular, monospace !important;
+  font-size: 1.05em;
+  opacity: .75;
+}
+
+h1 { font-size: 1.6em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.4em; }
+h4 { font-size: 1.3em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1.1em; }
+
+input {
+  padding: 0 .5em
+}
+
+.icon {
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.icon:hover {
+  cursor: pointer;
+  box-shadow: silver 0 2px 4px;
+}
+
+.disabled {
+  padding: 8px;
+  cursor: initial;
+  filter: invert(.9);
+}
+
+.completed {
+  text-decoration: line-through;
+  background-color: rgba(0,100,0,.1);
+}
