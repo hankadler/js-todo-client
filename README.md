@@ -4,6 +4,9 @@ A simple todo app.
 
 ![todoer](todoer.gif)
 
+> The GIF above shows frontend running on Windows application built with electron.
+> See [js-todoer-server](https://github.com/hankadler/js-todo-client) for details.
+
 > Showcases:
 >   - graphql
 >   - react
